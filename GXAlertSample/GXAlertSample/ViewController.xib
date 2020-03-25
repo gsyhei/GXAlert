@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="rvl-52-8gv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aVW-36-Inb">
+                    <rect key="frame" x="107" y="94" width="200" height="117.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="VB6-d4-sXd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Alert">
+                        <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="button1Click:" destination="-1" eventType="touchUpInside" id="fec-Of-blh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVf-1K-gXG">
+                    <rect key="frame" x="107" y="369" width="200" height="118"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="SheetTop">
+                        <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="button3Click:" destination="-1" eventType="touchUpInside" id="cZj-sQ-pM7"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jz-r9-i4s">
+                    <rect key="frame" x="107" y="507" width="200" height="117.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="SheetLeft">
+                        <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="button4Click:" destination="-1" eventType="touchUpInside" id="I7g-MQ-sPE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ml8-1S-Zaf">
+                    <rect key="frame" x="107" y="644.5" width="200" height="117.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="SheetRight">
+                        <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="button5Click:" destination="-1" eventType="touchUpInside" id="vGM-si-tS1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4NG-xt-YF1">
+                    <rect key="frame" x="107" y="231.5" width="200" height="117.5"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Sheet">
+                        <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="button2Click:" destination="-1" eventType="touchUpInside" id="jRk-9O-Q7G"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="eVf-1K-gXG" firstAttribute="height" secondItem="aVW-36-Inb" secondAttribute="height" id="2Sx-Rh-NZ7"/>
+                <constraint firstItem="eVf-1K-gXG" firstAttribute="top" secondItem="4NG-xt-YF1" secondAttribute="bottom" constant="20" id="2rs-vu-6FG"/>
+                <constraint firstItem="eVf-1K-gXG" firstAttribute="width" secondItem="aVW-36-Inb" secondAttribute="width" id="6pP-W8-Uuo"/>
+                <constraint firstItem="aVW-36-Inb" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="99Q-ze-e5I"/>
+                <constraint firstItem="eVf-1K-gXG" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="KSI-qg-jih"/>
+                <constraint firstItem="ml8-1S-Zaf" firstAttribute="height" secondItem="aVW-36-Inb" secondAttribute="height" id="MEm-2R-t78"/>
+                <constraint firstItem="4NG-xt-YF1" firstAttribute="height" secondItem="aVW-36-Inb" secondAttribute="height" id="S8E-MY-EF0"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ml8-1S-Zaf" secondAttribute="bottom" constant="100" id="VEl-j0-YBf"/>
+                <constraint firstItem="ml8-1S-Zaf" firstAttribute="top" secondItem="6Jz-r9-i4s" secondAttribute="bottom" constant="20" id="W5K-Nm-x7S"/>
+                <constraint firstItem="4NG-xt-YF1" firstAttribute="width" secondItem="aVW-36-Inb" secondAttribute="width" id="Xbu-iW-dr0"/>
+                <constraint firstItem="ml8-1S-Zaf" firstAttribute="width" secondItem="aVW-36-Inb" secondAttribute="width" id="Zr1-ek-tvW"/>
+                <constraint firstItem="ml8-1S-Zaf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="ekc-bs-Yj2"/>
+                <constraint firstItem="6Jz-r9-i4s" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="fnZ-ih-VKn"/>
+                <constraint firstItem="6Jz-r9-i4s" firstAttribute="height" secondItem="aVW-36-Inb" secondAttribute="height" id="kR9-dC-NI0"/>
+                <constraint firstItem="6Jz-r9-i4s" firstAttribute="width" secondItem="aVW-36-Inb" secondAttribute="width" id="nyx-gO-MQg"/>
+                <constraint firstItem="6Jz-r9-i4s" firstAttribute="top" secondItem="eVf-1K-gXG" secondAttribute="bottom" constant="20" id="rSv-gy-G6t"/>
+                <constraint firstItem="4NG-xt-YF1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="rnN-86-Y2R"/>
+                <constraint firstItem="4NG-xt-YF1" firstAttribute="top" secondItem="aVW-36-Inb" secondAttribute="bottom" constant="20" id="ss5-4z-I8k"/>
+                <constraint firstItem="aVW-36-Inb" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="50" id="u8G-lr-TSd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-207.24637681159422" y="126.5625"/>
+        </view>
+    </objects>
+</document>
