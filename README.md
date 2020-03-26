@@ -63,6 +63,12 @@ pod 'GXAlert'
 
 ```
 
+方向UICollectionViewScrollDirectionHorizontal效果
+--
+
+![](/GXAlert.gif '描述')
+
+
 License
 --
 MIT
