@@ -3,6 +3,13 @@
 
 # 喜欢就给个star哦，QQ：279694479
 
+
+先上demo菜单效果（比较朴素，请别在意）
+--
+
+![](/GXAlert.gif '描述')
+
+
 Requirements
 --
 - iOS 7.0 or later
@@ -62,12 +69,6 @@ pod 'GXAlert'
 + (BOOL)hideAlertForView:(UIView *)view animated:(BOOL)animated;
 
 ```
-
-方向UICollectionViewScrollDirectionHorizontal效果
---
-
-![](/GXAlert.gif '描述')
-
 
 License
 --
