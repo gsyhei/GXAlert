@@ -24,6 +24,10 @@ Usage in you Podfile:
 ```
 pod 'GXAlert'
 ```
+* 其它版本 [Swift版本](https://github.com/gsyhei/GXAlert-Swift)
+```
+pod 'GXAlert-Swift'
+```
 
 使用方法
 --
